@@ -21,7 +21,7 @@ export default function BestSellor()
                       <div style={{fontSize:16,fontWeight:'bold',}}> {item.title}</div>
                       <div style={{fontSize:16,fontWeight:'bold', color:'#6c757d'}}> {item.author} </div>
                       <div style={{fontSize:24,fontWeight:'bold', color:'blue'}}> {item.rating} </div>
-                     </div>
+                    </div>
 
                </div>
 

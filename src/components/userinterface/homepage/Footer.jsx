@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="col-lg-4 col-md-12 mb-5 mb-lg-0">
 
             <div style={logoStyle} className="mb-4">
-              <img src={logo} style={{ color: '#3b82f6',width:40 }}></img> Serif
+              <img src={logo} style={{ color: '#3b82f6',width:40 }}></img> Xoffencer Bookstore
             </div>
 
             <p className="pe-lg-5" style={{ lineHeight: '1.6' }}>

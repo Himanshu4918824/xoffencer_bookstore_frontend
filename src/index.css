@@ -1,0 +1,9 @@
+/* Hide vertical scrollbar globally but allow scrolling */
+html, body {
+  overflow-y: auto;
+  scrollbar-width: none;     
+
+}
+
+
+

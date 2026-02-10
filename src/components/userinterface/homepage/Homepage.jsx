@@ -44,10 +44,9 @@ export default function Homepage()
 
           <button type="submit" className="btn text-white px-4" style={{backgroundColor: "#111111", borderRadius: "8px",padding: "14px 26px"}}>
             Subscribe
-          </button>
-          
-
+          </button>  
         </div>
+        
 
         <div style={{marginTop:50}}>
             <BestSellor/>
