@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { useRef } from "react";
 
 
-export default function EditorScroll()
+export default function EditorScroll({show})
 {
     var scrollRef = useRef();
 
@@ -72,7 +72,7 @@ export default function EditorScroll()
 
 
     return(<div style={{margin:10,padding:10,marginLeft:60}}>
-         <div className="d-flex justify-content-between align-items-center mb-4">
+        {show=='recommand'?<></>: <div className="d-flex justify-content-between align-items-center mb-4">
           <div>
             <small className="text-primary fw-semibold">
               CURATED SELECTION
@@ -83,7 +83,7 @@ export default function EditorScroll()
           <a href="#" className="text-dark text-decoration-none fw-semibold">
             View All Collection →
           </a>
-        </div>
+        </div>}
 
 
         
