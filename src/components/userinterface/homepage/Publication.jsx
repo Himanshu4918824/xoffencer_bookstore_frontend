@@ -9,14 +9,14 @@ export default function Publication()
             <Header/>
         </div>
 
-        <div className="row m-5 p-5 me-5">
-            <div className="col-lg-6">
-                <img src={logo} style={{width:'40%'}}/>
+    <div className="container py-5">
+         <div className="row align-items-center g-4">
+            <div className="col-12 col-lg-6 text-center">
+                <img src={logo} style={{ maxWidth: "240px" }}/>
             </div>
 
-            <div className="col-lg-6">
-                 <div style={{width:'85%',height:'auto', borderRadius:10,backgroundColor:'white',margin:5,marginTop:30,display:'flex',border:'1px solid grey'}}>      
-                    <div style={{padding:20,margin:10}}>
+                <div className="col-12 col-lg-6">
+                    <div className="bg-white shadow-sm p-4 p-md-5" style={{borderRadius: 12,border: "1px solid #e0e0e0"}}>
                         <h1>Xoffencer International Book Publication House</h1>
 
                         <div style={{fontSize:16,fontWeight:400,color:'#956f6f'}}>
@@ -27,7 +27,6 @@ export default function Publication()
                            Xoffencer International is a leading publisher dedicated to bringing new
                            and established voices to a global audience, focusing on academic
                            technical and literary works
-
                         </div>
 
                         <div style={{fontSize:16,fontWeight:400,color:'#956f6f',marginTop:25}}>
@@ -43,13 +42,13 @@ export default function Publication()
                     
                     
 
-                 </div>
+                </div>
            
 
-            </div>
+         </div>
 
-        </div>
-
+        
+    </div>
 
 <div>
     <Footer/>

@@ -62,12 +62,14 @@ export default function MyCart() {
 
 
     const showAddress = () => {
-        return (<div style={{ fontFamily: 'JioType, helvetica, arial, sans-serif', fontWeight: 500, fontSize: 16, marginTop: 25, marginLeft: 100, width: '50%', border: '0.5px solid #e2e2e2', borderRadius: 20, padding: 20 }}>
+        return (<div className="container">
+        <div className="card shadow-sm p-3 col-12 col-md-10 col-lg-8 mx-auto" style={{border: '0.5px solid #e2e2e2', borderRadius: 20, padding: 20 }}>
             <div style={{ fontFamily: 'JioType, helvetica, arial, sans-serif', fontWeight: 'bold', fontSize: 18 }}>Delivery Address: </div>
             <div>Himanshu Sharma</div>
             <div>Krishna Puri Morar</div>
             <div>House No:149</div>
             <div>Madhya Pradesh, Gwalior-474006</div>
+        </div>
 
         </div>)
     }
@@ -83,10 +85,11 @@ export default function MyCart() {
         </div>
 
 
-        <div style={{ fontSize: 28, fontWeight: 800, padding: 10, margin: 10, lineHeight: 1.1, letterSpacing: 0.5, marginLeft: 50, fontFamily: 'Newsreader,serif', marginTop: 20 }}>Your Collection</div>
-        <div style={{ border: '0.5px solid #e2e2e2', width: '70%', marginLeft: 100, borderRadius: 20, padding: 15 }}>
+      <div style={{ fontSize: 28, fontWeight: 800, padding: 10, margin: 10, lineHeight: 1.1, letterSpacing: 0.5, marginLeft: 50, fontFamily: 'Newsreader,serif', marginTop: 20 }}>Your Collection</div>
+        <div className="container my-4">
+          <div className="card shadow-sm p-3 col-12 col-md-10 col-lg-8 mx-auto" style={{border: '0.5px solid #e2e2e2', borderRadius: 10, padding: 20 }}>
             {cartDetails()}
-
+          </div>
         </div>
 
 
